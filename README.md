@@ -14,7 +14,7 @@ Ce script va permettre de faciliter l'utilisation de Ventoy.
 6. Supression d'ISOs.
 7. Mise en place de la persistance sur certains isos.
 8. Booter Ventoy sur VirtualBox.
-9. Customisation de Ventoy (a voir).
+9. Customisation de Ventoy (Pas encore implémenté).
 
 ## Usage:
 
