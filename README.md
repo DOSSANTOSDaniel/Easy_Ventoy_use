@@ -22,13 +22,13 @@ Ce script va permettre de faciliter l'utilisation de Ventoy.
 
 -h : Aide.
 -v : Affiche la version.
-```
-               
+```               
 ## Contraintes et limitations:
-*. Le script doit être executé en tant que root.
-*. Au niveau de la fonction (Add ISO) on ne peut pas télécharger plusieurs fois le même ISO.
+* Le script doit être executé en tant que root.
+* Au niveau de la fonction (Add ISO) on ne peut pas télécharger plusieurs fois le même ISO.
 
 ## Reste à faire
-*. Code à faire pour la partie (other ISO), pour la copie utiliser "scp -p et -u pour supprimer le fichier source si besoin".
-*. Création des dossiers redondants, revoir l'idempotence.
-*. Revoir l'installation de JQ.
+* Code à faire pour la partie (other ISO), pour la copie utiliser "scp -p et -u pour supprimer le fichier source si besoin".
+* Création des dossiers redondants, revoir l'idempotence.
+* Revoir l'installation de JQ.
+* Revoir les fonctions code redondants.
