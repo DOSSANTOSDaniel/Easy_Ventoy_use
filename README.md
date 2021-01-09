@@ -6,20 +6,23 @@ Ce script va permettre de faciliter l'utilisation de Ventoy.
 
 ## Détail des fonctionnalités :
 
-1. Installation automatique de Ventoy sur une clé.
-2. Mise à jour de Ventoy.
-3. Ajout d'ISOs.
-4. Supression d'ISOs.
-5. Mise en place de la persistance sur certains isos.
-6. Booter Ventoy sur VirtualBox.
+1. Installation de Ventoy sur une clé USB.
+2. Suppressition de Ventoy de la clé USB.
+3. Réinstallation de ventoy sur une clé USB.
+4. Mise à jour de Ventoy.
+5. Ajout d'ISOs.
+6. Supression d'ISOs.
+7. Mise en place de la persistance sur certains isos.
+8. Booter Ventoy sur VirtualBox.
 
 ## Usage:
 
 ```bash
 ./script_ventoy.sh -[h|v]
-```
+
 -h : Aide.
 -v : Affiche la version.
+```
                
 ## Contraintes et limitations:
 *. Le script doit être executé en tant que root.
