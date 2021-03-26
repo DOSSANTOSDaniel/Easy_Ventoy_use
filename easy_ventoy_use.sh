@@ -14,7 +14,7 @@
 # 1. Installation automatique de Ventoy sur une clé.
 # 2. Mise à jour de Ventoy.
 # 3. Ajout d'ISOs.
-# 4. Supression d'ISOs.
+# 4. Suppression d'ISOs.
 # 5. Mise en place de la persistance.
 # 6. Lancer Ventoy sur VirtualBox ou KVM.
 #
@@ -58,7 +58,7 @@ usage() {
   1. Installation automatique de Ventoy sur une clé.
   2. Mise à jour de Ventoy.
   3. Ajout d'ISOs.
-  4. Supression d'ISOs.
+  4. Suppression d'ISOs.
   5. Mise en place de la persistance.
   6. Lancer Ventoy sur VirtualBox ou KVM.
 
@@ -418,7 +418,7 @@ then
 fi
 ls -l ${v_dir} | awk '{print $9}'
 read -p "Nom de l'ISO : " iso_pers
-read -p "Taille de la persistence : " pers
+read -p "Taille de la persistance : " pers
   
 if [[ ! ${pers} =~ [[:digit:]] ]]
 then
@@ -675,7 +675,7 @@ select opt in "${options[@]}"
 do
   case $opt in
     'Install Ventoy')
-      # demonter la clé
+      # démonter la clé
       umount -l /dev/${disk}* > /dev/null 2>&1
       if_installed_pc
       if_installed_usb
