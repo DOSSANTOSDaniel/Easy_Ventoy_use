@@ -10,11 +10,9 @@ Ce script va permettre de faciliter l'utilisation de Ventoy.
 2. Suppression de Ventoy de la clé USB.
 3. Réinstallation de ventoy sur une clé USB.
 4. Mise à jour de Ventoy.
-5. Ajout d'ISOs.
-6. Suppression d'ISOs.
-7. Mise en place de la persistance sur certains isos.
-8. Booter Ventoy sur VirtualBox.
-9. Customisation de Ventoy (Pas encore implémenté).
+5. Mise en place de la persistance sur certains isos (à venir).
+6. Booter certains isos Ventoy sur VirtualBox (à venir).
+7. Customisation du menu de démarrage de Ventoy.
 
 ## Usage:
 
@@ -26,10 +24,6 @@ Ce script va permettre de faciliter l'utilisation de Ventoy.
 ```               
 ## Contraintes et limitations:
 * Le script doit être exécuté en tant que root.
-* Au niveau de la fonction (Add ISO) on ne peut pas télécharger plusieurs fois le même ISO.
 
 ## Reste à faire
-* Code à faire pour la partie (other ISO), pour la copie utiliser "scp -p et -u pour supprimer le fichier source si besoin".
-* Création des dossiers redondants, revoir l'idempotence.
-* Revoir l'installation de JQ.
-* Revoir les fonctions code redondants.
+
